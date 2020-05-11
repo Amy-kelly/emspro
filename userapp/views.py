@@ -6,5 +6,6 @@ def index(request):
     return HttpResponse()
 
 def demo(request):
-    print("我是分支")
-    re
+    print("我是分支,这次正常了")
+
+    return HttpResponse("view完成")
