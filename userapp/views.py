@@ -13,4 +13,4 @@ def demo(request):
     return HttpResponse("view完成")
 
 class UserView(View):
-    pass
+    print("又修改了")
